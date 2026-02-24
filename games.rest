@@ -1,0 +1,28 @@
+### Get all games
+GET http://localhost:5171/games
+
+### Get a gime
+GET http://localhost:5171/games/1
+
+### Create a game
+POST http://localhost:5171/games
+Content-Type: application/json
+
+{
+    "name": "PUBG",
+    "genre": "Gun",
+    "price": 69.99,
+    "releaseDate": "2023-05-05"
+}
+
+### Update a game
+PUT http://localhost:5171/games/4
+Content-Type: application/json
+
+{
+    "name": "PUBG Update",
+    "genre": "Gun",
+    "price": 69.99,
+    "releaseDate": "2023-05-05"
+}
+

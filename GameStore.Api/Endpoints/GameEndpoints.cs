@@ -4,9 +4,9 @@ namespace GameStore.Api.Endpoints;
 
 public static class GameEndpoints
 {
-    const string GetGameEndpointName = "GetGame";
+        const string GetGameEndpointName = "GetGame";
 
-    private static readonly List<GameDto> games = [
+        private static readonly List<GameDto> games = [
         new(
         1,
         "Street Fighter II",

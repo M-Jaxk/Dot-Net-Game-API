@@ -2,7 +2,7 @@
 GET http://localhost:5171/games
 
 ### Get a gime
-GET http://localhost:5171/games/1
+GET http://localhost:5171/games/3
 
 ### Create a game
 POST http://localhost:5171/games
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ### Update a game
-PUT http://localhost:5171/games/4
+PUT http://localhost:5171/games/0
 Content-Type: application/json
 
 {

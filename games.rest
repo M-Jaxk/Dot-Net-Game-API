@@ -9,7 +9,7 @@ POST http://localhost:5171/games
 Content-Type: application/json
 
 {
-    "name": "PUBG",
+    "name": "",
     "genre": "Gun",
     "price": 69.99,
     "releaseDate": "2023-05-05"

@@ -36,3 +36,11 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.exe.config
+*.dll.config
+*.pdb.config

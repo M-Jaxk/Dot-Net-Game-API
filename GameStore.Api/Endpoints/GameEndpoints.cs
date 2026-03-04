@@ -4,10 +4,10 @@ namespace GameStore.Api.Endpoints;
 
 public static class GameEndpoints
 {
-        const string GetGameEndpointName = "GetGame";
+    const string GetGameEndpointName = "GetGame";
 
-        private static readonly List<GameDto> games = [
-        new(
+    private static readonly List<GameDto> games = [
+    new(
         1,
         "Street Fighter II",
         "Fighting",
@@ -28,7 +28,7 @@ public static class GameEndpoints
         59.99M,
         new DateOnly(2024,9,6)
     )
-    ];
+];
 
     public static void MapGamesEndPoints(this WebApplication app)
     {

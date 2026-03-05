@@ -44,3 +44,9 @@ bld/
 *.exe.config
 *.dll.config
 *.pdb.config
+
+# Cache files
+*.cache
+
+# Source files
+*.cs

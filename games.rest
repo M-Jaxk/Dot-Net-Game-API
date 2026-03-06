@@ -9,8 +9,8 @@ POST http://localhost:5171/games
 Content-Type: application/json
 
 {
-    "name": "",
-    "genre": "Gun",
+    "name": "Super Marios Bros. Wonder",
+    "genreId": 3,
     "price": 69.99,
     "releaseDate": "2023-05-05"
 }
